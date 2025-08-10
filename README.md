@@ -132,9 +132,10 @@
 ## Repository Contents
 
 - `README.md` (this file)  
-- `ZewdieLLM_Prototype.ipynb` (implementation)  
+- `ZewdieLLM_Final_EchoRoom.ipynb` (final implementation notebook)  
+- `ZewdieLLM_Prototype.ipynb` (prototype stage implementation)  
 - `ZewdieLLM_Feasibility.pdf` (early exploration)  
-- Figures used in this README:
+- Figures used in this README:  
   - `goemotions_author_distribution.png`  
   - `goemotions_balanced_distribution.png`  
   - `empathetic_reader_distribution.png`  
