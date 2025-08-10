@@ -6,7 +6,7 @@
 
 ---
 
-## What We Built (Scope of this Submission)
+## What's Built (Scope)
 
 - A **10-class emotion classifier** trained on **GoEmotions** (author perspective) using a modern transformer: `BAAI/bge-small-en`.  
 - A **shared-label mapping** that aligns **EmpatheticDialogues** (reader perspective) to the same 10 emotions for analysis and future modeling.  
@@ -80,7 +80,7 @@
 
 ---
 
-## What This Means (Back to the Goal)
+## What This Means 
 
 - We can predict an **author’s emotion** with ~**67%** accuracy across 10 classes.  
 - We set the foundation for a **reader-perception** model by aligning labels and analyzing reader distributions.  
