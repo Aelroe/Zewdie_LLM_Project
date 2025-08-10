@@ -73,6 +73,17 @@
 ![](true_label_distribution.png)  
 ![](predicted_label_distribution.png)
 
+---
+
+## Limitations
+
+- **Training time constraints**: Colab Free limited us to shorter runs. Our main run was 1 epoch (~5h 05m) for the full dataset; an earlier smaller-scale test run completed in just over an hour.
+- **Memory limits**: Required batch size 2 with gradient accumulation to simulate larger batches.
+- **Scope**: For this submission, we focused on the author-perspective model only. This ensured we could fully demonstrate preprocessing, balancing, training, and evaluation end-to-end under the constraints, while still preparing the groundwork (label mapping, EDA) for the reader-perspective model.
+- **Model capacity**: `BAAI/bge-small-en` is lightweight; a larger model or more epochs could improve results.
+
+---
+
 **Takeaways (author model):**
 - Performance is solid for a compact model under tight memory.  
 - Most confusion occurs among semantically close emotions (e.g., *joy* vs. *gratitude*, *anger* vs. *disgust*).  
